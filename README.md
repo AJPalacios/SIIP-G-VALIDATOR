@@ -17,14 +17,16 @@ Para instalar el validador asegurate de que tu equipo tenga las siguientes carac
 * Windows 7 or 10 
 * 4GB RAM or higher
 
-#### Instalación
+#### Instalación en Windows
 
-SIPP-G Validator necesita de [Python](https://www.python.org/) para poder ejecutarse instalaremos [Python](https://www.python.org/)
+SIPP-G Validator necesita de [Python](https://www.python.org/) para poder ejecutarse, instalaremos [Python](https://www.python.org/)
 en su versión mas reciente la cual es **Python 3.6.1**
 
 Si tu plataforma es Windows puedes dar click en el siguiente enlace y ejecutar el instalador :point_down:
 
 * [Python :snake: ](https://www.python.org/downloads/)
+
+#### Instalación en macOS
 
 Si tu palaforma esta basa en **UNIX** como **macOS** ejecutaremos los siguientes comandos dentro de la terminal:
 
@@ -73,10 +75,12 @@ Listo ya tenemos **Python3** instalado en nuestros equipos, para verificar que e
  
  Para actualizar nuestro **Python3** primero actualizaremos **brew** y despues **Python**, ejecutamos los siguientes comandos dentro de la terminal:
  ```markdown
- $ brew update
+$ brew update
 $ brew upgrade python3
  ```
  ¡ Bien hecho tu versión de **Python** esta actualizada !
+
+#### Instalación en Linux
 
 ```markdown
 Syntax highlighted code block
