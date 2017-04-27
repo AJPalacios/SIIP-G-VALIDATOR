@@ -22,13 +22,61 @@ Para instalar el validador asegurate de que tu equipo tenga las siguientes carac
 SIPP-G Validator necesita de [Python](https://www.python.org/) para poder ejecutarse instalaremos [Python](https://www.python.org/)
 en su versión mas reciente la cual es **Python 3.6.1**
 
+Si tu plataforma es Windows puedes dar click en el siguiente enlace y ejecutar el instalador :point_down:
+
 * [Python :snake: ](https://www.python.org/downloads/)
 
+Si tu palaforma esta basa en **UNIX** como **macOS** ejecutaremos los siguientes comandos dentro de la terminal:
 
+```markdown
+$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+$ nano ~/.bash_profile
+$ export PATH=/usr/local/bin:$PATH
 
+# guardamos los cambios presionando ctr + o y salimos de nano presionando ctr + x
 
+$ source ~/.bash_profile
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+```
+
+Ahora para estar seguros de que Homebrew esta correctamente instalado ejecutamos el comando: 
+```markdown 
+brew doctor 
+``` 
+si nos aparece el siguiente mensaje 
+```markdown 
+Your system is ready to brew.
+``` 
+Procedemos con la instalación de **Python**, usaremos Homebrew para instalar **Python** ejecutamos el siguiente comando:
+```markdown 
+$ brew search python
+```
+Una vez ejecutado en la terminal nos aparecera una lista de lo que podemos instalar algo como esto:
+```markdown 
+#Output
+app-engine-python          micropython                python3                 
+boost-python               python                     wxpython                 
+gst-python                 python-markdown            zpython                  
+homebrew/apache/mod_python               homebrew/versions/gst-python010        
+homebrew/python/python-dbus              Caskroom/cask/kk7ds-python-runtime     
+homebrew/python/vpython                  Caskroom/cask/mysql-connector-python   
+```
+ Instalaremos **Python 3** nos aparece en el listado:
+ ```markdown
+ $ brew install python3
+ ```
+Listo ya tenemos **Python3** instalado en nuestros equipos, para verificar que esta correctamente instalado **Python** en nuestro equipo ejecutamos el siguiente comando que nos devolvera la versión de **Python** instalada:
+```markdown
+ $ python --version
+ ```
+ Si obtenemos como la salida en la terminal la versión de **Python** instalada todo esta correcto.
+ 
+ Para actualizar nuestro **Python3** primero actualizaremos **brew** y despues **Python**, ejecutamos los siguientes comandos dentro de la terminal:
+ ```markdown
+ $ brew update
+$ brew upgrade python3
+ ```
+ ¡ Bien hecho tu versión de **Python** esta actualizada !
 
 ```markdown
 Syntax highlighted code block
