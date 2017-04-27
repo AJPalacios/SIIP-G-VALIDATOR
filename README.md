@@ -1,10 +1,32 @@
-## Welcome to GitHub Pages
+## Bienvenido
 
-You can use the [editor on GitHub](https://github.com/AJPalacios/siippg-validator/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Este sitio pretende ser una guia completa para el uso del validador para los padrones del SIPP-G, cubriremos desde la instalación hasta la ejecución de los scripts que contiene el validador.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## Que es SIPP-G Validator
+
+SIPP-G Validator es un conjunto de scripts que analizan campos especificos de un conjunto de datos en formato csv, para validar ciertas caracteristicas que debe cumplir una CURP de un usuario, como lo es la longitud, y las claves de la entidad formadas por dos digitos.
+
+### Guia de instalación y Requerimientos :point_down:
+
+#### Requerimientos del sistema
+
+Para instalar el validador asegurate de que tu equipo tenga las siguientes caracteristicas:
+
+* GNU/Linux, Unix, or macOS
+* Windows 7 or 10 
+* 4GB RAM or higher
+
+#### Instalación
+
+SIPP-G Validator necesita de [Python](https://www.python.org/) para poder ejecutarse instalaremos [Python](https://www.python.org/)
+en su versión mas reciente la cual es **Python 3.6.1**
+
+* [Python :snake: ](https://www.python.org/downloads/)
+
+
+
+
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
