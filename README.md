@@ -82,30 +82,15 @@ $ brew upgrade python3
 
 #### Instalación en Linux
 
+En Linux **Python3** viene preinstalado, para asegurarnos que nuestro sistema esta actualizado ejecutamos los siguientes comandos en nuestra terminal:
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+$ sudo apt-get update
+$ sudo apt-get -y upgrade
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AJPalacios/siippg-validator/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Una vez terminado el proceso ha sido completado podemos verificar la versión de **Python3** que esta instalada en nuestro sistema ejecutando el siguiente comando:
+```markdown
+$ python3 -V
+# Output 
+Python 3.x.x
+```
+Como salida veremos la versión de python instalada en nuestro sistema.
